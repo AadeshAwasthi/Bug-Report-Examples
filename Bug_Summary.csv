@@ -1,0 +1,21 @@
+Bug ID,Title,Module,Type,Severity,Priority,Test User,Status
+BUG-001,All products display the same image on Products page,Product Listing,UI,Major,High,problem_user,Open
+BUG-002,Product sort dropdown does not change the product order,Product Listing,Functional,Major,High,problem_user,Open
+BUG-003,Typing in Last Name field changes the First Name field on checkout,Checkout,Functional,Critical,High,problem_user,Open
+BUG-004,"""Add to cart"" does not work for some products",Shopping Cart,Functional,Critical,High,problem_user,Open
+BUG-005,"""Remove"" button on Products page does not remove the item",Shopping Cart,Functional,Major,High,problem_user,Open
+BUG-006,Clicking a product name opens a different product detail page,Product Details,Functional,Major,Medium,problem_user,Open
+BUG-007,"""About"" menu link opens a 404 error page",Navigation Menu,Functional,Minor,Medium,problem_user,Open
+BUG-008,Login takes around 5 seconds for performance_glitch_user,Login,Performance,Major,Medium,performance_glitch_user,Open
+BUG-009,"Sorting shows a ""Sorting is broken!"" alert",Product Listing,Functional,Major,High,error_user,Open
+BUG-010,"""Finish"" button does not complete the order",Checkout,Functional,Blocker,High,error_user,Open
+BUG-011,Cart icon is misaligned in the header,Header,UI,Minor,Low,visual_user,Open
+BUG-012,Product prices change on every page load,Product Listing,Functional,Critical,High,visual_user,Open
+BUG-013,Checkout button is misaligned on Cart page,Shopping Cart,UI,Minor,Low,visual_user,Open
+BUG-014,User can proceed to checkout with an empty cart,Checkout,Functional,Major,Medium,standard_user,Open
+BUG-015,Postal Code field accepts alphabets and special characters,Checkout,Validation,Minor,Medium,standard_user,Open
+BUG-016,First Name and Last Name accept numbers and special characters,Checkout,Validation,Minor,Low,standard_user,Open
+BUG-017,"""Reset App State"" does not reset the ""Remove"" buttons",Navigation Menu,Functional,Minor,Medium,standard_user,Open
+BUG-018,Selected sort option is lost after returning from product detail page,Product Listing,Usability,Minor,Low,standard_user,Open
+BUG-019,Order confirmation page can be opened directly by URL,Checkout,Security,Major,Medium,standard_user,Open
+BUG-020,Cart items of one user are visible to another user on the same browser,Shopping Cart,Security,Critical,High,standard_user / problem_user,Open
